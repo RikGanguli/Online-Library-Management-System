@@ -110,7 +110,7 @@
     <li>Set up PostgreSQL database:
         <ul>
             <li>Create a new database for the library system.</li>
-            <li>Run the SQL scripts provided in the <code>sql/</code> folder to create the necessary tables and relationships.</li>
+            <li>Run the SQL scripts provided in the <code>libraryApp/sql/</code> folder to create the necessary tables and relationships.</li>
         </ul>
     </li>
     <li>Compile and deploy the web application:
@@ -124,24 +124,6 @@
         <pre><code>http://localhost:8080/library-management-system</code></pre>
     </li>
 </ol>
-
-<h2 id="usage">Usage</h2>
-
-<h3>Member Actions</h3>
-<ul>
-    <li><strong>Login</strong>: Members log in using their credentials to access the system.</li>
-    <li><strong>Search for Documents</strong>: Search by title, author, publication year, etc.</li>
-    <li><strong>Borrow Documents</strong>: Borrow available copies of documents.</li>
-    <li><strong>Return Documents</strong>: Return borrowed documents before the due date to avoid fines.</li>
-    <li><strong>Saved Searches</strong>: Save search queries for easy re-execution.</li>
-</ul>
-
-<h3>Librarian Actions</h3>
-<ul>
-    <li><strong>Manage Members</strong>: Add, edit, or remove member information.</li>
-    <li><strong>Manage Documents</strong>: Add new documents, delete documents, or modify existing ones.</li>
-    <li><strong>Overdue Tracking</strong>: Check which documents are overdue and notify members.</li>
-</ul>
 
 <h2>Credits</h2>
 <p>Developed by Rik Ganguli Biswas</p>
