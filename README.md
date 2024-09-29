@@ -13,8 +13,6 @@
     <li><a href="#database-structure">Database Structure</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
 </ul>
 
 <h2 id="features">Features</h2>
@@ -163,14 +161,3 @@
     <li><strong>Overdue Tracking</strong>: Check which documents are overdue and notify members.</li>
 </ul>
 
-<h2 id="contributing">Contributing</h2>
-
-<p>Contributions are welcome! Please follow these steps:</p>
-
-<ol>
-    <li>Fork the repository.</li>
-    <li>Create a new branch:
-        <pre><code>git checkout -b feature-branch</code></pre>
-    </li>
-    <li>Commit your changes:
-        <pre><
