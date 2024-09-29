@@ -91,19 +91,6 @@
     <li>Can check for overdue documents and handle fines.</li>
 </ul>
 
-<h2 id="database-structure">Database Structure</h2>
-
-<p>The system uses a <strong>PostgreSQL</strong> database to store all the information about the library, including members, documents, copies, and transactions. Key database tables include:</p>
-
-<ul>
-    <li><strong>Members</strong>: Information about library members.</li>
-    <li><strong>Documents</strong>: Stores document details (e.g., books, journal articles, magazines).</li>
-    <li><strong>Copies</strong>: Stores information about the specific copies of documents.</li>
-    <li><strong>Transactions</strong>: Tracks borrowing and returning of documents.</li>
-    <li><strong>Fines</strong>: Tracks overdue fines and payments.</li>
-    <li><strong>Saved_Searches</strong>: Stores members' saved search queries.</li>
-</ul>
-
 <h2 id="installation">Installation</h2>
 
 <h3>Prerequisites</h3>
@@ -118,17 +105,12 @@
 
 <ol>
     <li>Clone this repository:
-        <pre><code>git clone https://github.com/your-username/library-management-system.git</code></pre>
+        <pre><code>git clone https://github.com/RikGanguli/Online-Library-Management-System.git</code></pre>
     </li>
     <li>Set up PostgreSQL database:
         <ul>
             <li>Create a new database for the library system.</li>
-            <li>Run the SQL scripts provided in the <code>db/</code> folder to create the necessary tables and relationships.</li>
-        </ul>
-    </li>
-    <li>Update the database configuration:
-        <ul>
-            <li>Modify the <code>db.properties</code> file to include your PostgreSQL connection details (e.g., username, password, database URL).</li>
+            <li>Run the SQL scripts provided in the <code>sql/</code> folder to create the necessary tables and relationships.</li>
         </ul>
     </li>
     <li>Compile and deploy the web application:
@@ -160,4 +142,7 @@
     <li><strong>Manage Documents</strong>: Add new documents, delete documents, or modify existing ones.</li>
     <li><strong>Overdue Tracking</strong>: Check which documents are overdue and notify members.</li>
 </ul>
+
+<h2>Credits</h2>
+<p>Developed by Rik Ganguli Biswas</p>
 
